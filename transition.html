@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en"
+
+<head>
+<meta charset="utf-8"
+<title>transition site</title>
+<style>
+    div{
+        margin-bottom:10px
+    }
+#one {
+    width:100px;
+    height:100px;
+    background:aliceblue;
+    border:2px solid lightblue;
+    transition: transform 2s,background 1s;
+}
+#one:hover {
+    transform:rotate(20000deg) scale(20);
+    background: lightblue;
+}
+#two {
+    width:20px;
+    height:50px;
+    background:seagreen;
+    border:5px dashed green;
+    transition: transform 3.5s, background 1s;
+}
+#two:hover {
+    transform:skewX(90deg) scale(2);
+    background:greenyellow
+}
+#three {
+    height:50px;
+    width:100px;
+    background:purple;
+    border:3px dotted pink;
+    transition:transform 1s, background 3s;
+}
+#three:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    background:plum;
+    border:dashed white;
+}
+#four {
+    height:200px;
+    width:200px;
+    background:orangered;
+    border: 7px groove orange;
+    transition:transform .5s, background .5s;
+}
+#four:hover {
+    transform:rotateZ(90deg);
+    background:yellow;
+    border:7px groove orange;
+}
+</style>
+
+</head>
+
+<body>
+    <div id="one"> </div>
+    <div id="two"> </div>
+    <div id="three"> </div>
+    <div id="four"> </div>
+</body>
