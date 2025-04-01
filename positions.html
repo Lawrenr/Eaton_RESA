@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>postions</title>
+    <style>
+        body{
+            background-color:aquamarine
+        }
+      div {
+        width:150px;
+        height:150px;
+        background-color:azure;
+        border:5px dashed teal
+      }  
+      #one {
+        position:static;
+        z-index:100;
+      }
+      #two {
+        position:relative;
+        left:100px;
+        top:-50px;
+      }
+      #three {
+        position:absolute;
+        background:turquoise;
+        right:100px;
+        top:100px;
+        z-index:600;
+      }
+      #four {
+        position:fixed;
+        background:aqua;
+        right:0;
+        bottom:200px;
+        z-index:900px;
+      }
+         #five {
+            position:sticky;
+            top:0;
+            background-color:cadetblue;
+        
+         }
+    </style>
+</head>
+
+<body>
+
+   <div id="one"> 
+
+   </div>
+
+  <div id="two"> 
+
+    </div>  
+
+    <div id="three"> 
+    
+   </div>
+   
+   <div id="four"> 
+    
+   </div> 
+   
+   <div id="five"> 
+    
+   </div>
+</body>
+
+</html>

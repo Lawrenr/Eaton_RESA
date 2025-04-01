@@ -1,0 +1,52 @@
+
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>my index page</title>
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+body
+    {
+        font-family: "Sour Gummy", sans-serif;
+  font-weight:400px;
+  font-style: normal;
+ }
+
+</style>
+<style>
+    body{
+    
+        background:#ADB9E3;
+        color:aliceblue;
+    
+    }
+    </style>
+</head>
+            
+<body>
+<h1>my beautiful website by me jesse</h1>
+<p>this is my page for me and my websites!!!</p>
+<hr>
+
+<h2>my websites to whatever!!:</h2>
+
+<ul>
+<p><a href="text.html"</a>text thingy</p>
+<pa><a href="links.html"</a>links to things</pa>
+<p><a href="boxes.html"</a>boxes boy</p>
+<p><a href="images.html"</a>imagesss teehee</p>
+<p><a href="transition.html"</a>transitions</p>
+<p><a href="positions.html"</a>positions Muhahaha</a></p>
+</ul>
+<img src="measjinx.png">
+
+</body>
+
+</html>
